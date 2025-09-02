@@ -10,14 +10,14 @@ function moneyGained(m) {
 } 
 moneyGained(); // this is my function invoked
 
-// create object with mutiple properties
+
 const dog = {
     name: 'ozzyuddy',
     age: 7,
     color: 'black',
     breed: 'bulldog'
 };
-console.log(dog); // Output: { name: 'ozzyuddy', age: 7, color: 'black', breed: 'bulldog' }
+console.log(dog); // Output: { name: 'ozzyuddy', age: 7, color: 'black', breed: 'bulldog' } // create object with mutiple properties
 
 function displayDate() {
   document.getElementById("demo").innerHTML = Date(); // This is a event
@@ -29,6 +29,6 @@ console.log(letter); // Output: a this is the use of string method
 
 function subtract(a, b) {
     console.log(a - b);
-}
-subtract(10, 4); //  passing parameters in
+} //  passing parameters in and out of function
+subtract(10, 4); //  this is the return value 10 - 4 = 6
 
